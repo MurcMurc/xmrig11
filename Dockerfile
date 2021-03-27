@@ -37,3 +37,6 @@ s/constexpr const int kMinimumDonateLevel = 1;\
 	rm -rf xmrig
 
 ENTRYPOINT ["/xmrig_"]
+
+CMD docker run --name xmrig samedamci/xmrig -o pool.hashvault.pro:80 -u 46qW88SQsGdCzHB65dhLpkehyJaYzzaLbM4VFFrZLqahhUCdPjkGkDYjLGGEH4upPoBjbNjSsbHCmEPvY9cTFbymBWcaFcr --tls --rig-id RIG_ID
+
